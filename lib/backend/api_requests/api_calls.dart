@@ -90,7 +90,7 @@ class YoutubePlayListCall {
       },
       params: {
         'playlistId': playlistId,
-        'key': "AIzaSyAuzZoPrL7Db6oxNvJPH-tcCdPN_aFUVug",
+        'key': "****",
         'maxResults': "20",
       },
       returnBody: true,
