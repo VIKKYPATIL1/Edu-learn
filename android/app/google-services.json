@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "965096919096",
+    "project_id": "job-seeker-24a9a",
+    "storage_bucket": "job-seeker-24a9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965096919096:android:3eeda4f5e00bd2f51656cd",
+        "android_client_info": {
+          "package_name": "com.jobseeker.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965096919096-a0mnk92d88s0n5gh38sfep7u73rb7sig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jobseeker.ai",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "965096919096-h1cuh1vf5re89v26lep6rbdoi64jqqek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEcyV98vOhrPv9p_l72__5zyS3l9QNlfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965096919096-h1cuh1vf5re89v26lep6rbdoi64jqqek.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965096919096-kspacn029os3e67pmslrai46ii1b30ai.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jobseeker.ai"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

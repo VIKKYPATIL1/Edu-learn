@@ -1,0 +1,81 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if false;
+    }
+
+    match /chat_with_ai/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+
+    match /users/{parent}/chat_with_job/{document} {
+      allow create: if request.auth.uid == parent;
+      allow read: if true;
+      allow write: if request.auth.uid == parent;
+      allow delete: if request.auth.uid == parent;
+    }
+
+    match /Subjects/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+
+    match /PlayListID/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+
+    match /NotesContribution/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if true;
+      allow delete: if true;
+    }
+
+    match /roadMapCollection/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+
+    match /users/{parent}/recentVideosUserView/{document} {
+      allow create: if request.auth.uid == parent;
+      allow read: if true;
+      allow write: if request.auth.uid == parent;
+      allow delete: if request.auth.uid == parent;
+    }
+
+    match /users/{parent}/userSavedPlayList/{document} {
+      allow create: if request.auth.uid == parent;
+      allow read: if true;
+      allow write: if request.auth.uid == parent;
+      allow delete: if request.auth.uid == parent;
+    }
+
+    match /users/{parent}/userSavedVideo/{document} {
+      allow create: if request.auth.uid == parent;
+      allow read: if true;
+      allow write: if request.auth.uid == parent;
+      allow delete: if request.auth.uid == parent;
+    }
+
+    match /RecentCollection/{document} {
+      allow create: if true;
+      allow read: if true;
+      allow write: if false;
+      allow delete: if false;
+    }
+  }
+}
