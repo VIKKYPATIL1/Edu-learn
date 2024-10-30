@@ -1,10 +1,59 @@
-# job-seeker
 
-A new Flutter project.
+# Edu-Learn
 
-## Getting Started
+**Edu-Learn** is an e-learning platform designed for NMIMS students, bridging academic preparation and career readiness. The platform combines educational content, interactive tools, and job-preparation features to support student success in academic and professional growth.
 
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Features
+
+- **AI-Guided Interview Preparation**: Personalized interview guidance through Gemini AI.
+- **YouTube Video Integration**: Curated video lessons for flexible learning.
+- **Notes Sharing and Peer Reviews**: Community-driven notes sharing and review-based content curation.
+- **Offline Document Access**: In-app PDF Reader for offline study.
+- **Smart Content Recognition**: Document AI for intelligent processing of study materials.
+
+## Technologies Used
+
+- **Frontend**: Flutter
+- **Backend**: Firebase (data handling and user management)
+- **AI Chatbot**: Gemini AI (personalized interview preparation)
+- **Document Processing**: Document AI and PDF Reader
+- **Video Content**: YouTube API for video integration
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/edu-learn.git
+2. Navigate to the project directory:
+   ```bash
+     cd edu-learn
+3. Install Dependencies:
+   ```bash
+     flutter pub get
+4. Run Application
+   ```bash
+     flutter run
+## Project Structure
+Edu-Learn/
+├── lib/
+│   ├── models/             # Data models
+│   ├── screens/            # Main screens and UI components
+│   ├── services/           # Firebase and API integrations
+│   ├── widgets/            # Custom widgets
+│   └── main.dart           # App entry point
+├── pubspec.yaml            # Dependency file
+└── README.md               # Project documentation
+
 
 ## Integration Tests
 
@@ -27,6 +76,16 @@ flutter drive \
   -d chrome
 ```
 
-Find more information about running Flutter integration tests [here](https://docs.flutter.dev/cookbook/testing/integration/introduction#5-run-the-integration-test).
+***License***
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Refer to this guide for instructions on running the tests on [Firebase Test Lab](https://github.com/flutter/flutter/tree/main/packages/integration_test#firebase-test-lab).
+***Contact***
+For questions or feedback, reach out to the contributors:
+
+Chetan Kachave - ***chetanpatil662002@gmail.com***
+Takshil Rajkumar Chinnakonda - ***takshil.cn27@gmail.com***
+Neel Hemant Patil - ***neel1234patil@gmail.com***
+
+
+
+
