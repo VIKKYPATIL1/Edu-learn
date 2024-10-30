@@ -22,7 +22,7 @@ class YoutubeSearchCall {
       },
       params: {
         'q': q,
-        'key': "AIzaSyAuzZoPrL7Db6oxNvJPH-tcCdPN_aFUVug",
+        'key': "***",
       },
       returnBody: true,
       encodeBodyUtf8: false,
